@@ -1013,6 +1013,7 @@ int main() {
 	obj.wypisz();
 	cout << "Wybierz klase samochodu ktory chcesz wypozyczyc" << endl;
 	cout << "Dostepne klasy samochodow  A  B  C  D " << endl;
+	cout << "Jesli chcesz przejsc do Statusu Zamowien wcisnij inny znak niz klasy samochodow"<<endl;
 	cin >> n;
 	system("cls");
 	switch (n) {
@@ -1259,7 +1260,7 @@ int main() {
 		wyj.close();
 
 		break;
-	default: cout << "Nie istnieje klasa o podanym symbolu" << endl;
+	default: cout << " " << endl;
 	}
 	system("pause");
 	system("cls");
